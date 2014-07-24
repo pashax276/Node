@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class _Node {
     public static void main(String[] args) {
         Node tail = val(1,2);
