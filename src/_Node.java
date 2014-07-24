@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class _Node {
     public static void main(String[] args) {
         Node tail = val(1,2);
@@ -5,8 +7,8 @@ public class _Node {
         //System.out.println(toString(addLast.addlast(tail, 1)));
        // System.out.println(toString(addLast.addLastRec(tail, 2)));
         //System.out.println(toString(addInPosition.addInPosition(tail, 2, 9)));
-        System.out.println(toString(remove.removeFirst(tail)));
-        System.out.println(toString(remove.removeLast(tail)));
+        System.out.println(toString(Remove.removeFirst(tail)));
+        System.out.println(toString(Remove.removeLast(tail)));
 
     }
 
