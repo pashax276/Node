@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class _Node {
     public static void main(String[] args) {
-        Node tail = val(1,2);
+        Node tail = val(1,2,3,4);
         System.out.println(toString(tail));
         //System.out.println(toString(addLast.addlast(tail, 1)));
        // System.out.println(toString(addLast.addLastRec(tail, 2)));

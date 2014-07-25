@@ -12,7 +12,7 @@ public class Remove {
         if (tail.next == null) {
             return tail.next;
         } else {
-            return new Node(tail.value, removeFirst(tail.next));
+            return new Node(tail.value, removeLast(tail.next));
         }
     }
 }
